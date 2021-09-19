@@ -39,6 +39,9 @@ body {
 .pricing-range {
     margin-top: 3vw;
 }
+.pricing-head button{
+    cursor: pointer;
+}
 
 .pricing-head p:first-child {
     font-size: 3vw;
@@ -127,6 +130,7 @@ body {
 
 .Card:hover {
     border: 0.1vw solid var(--tertiary-color);
+    box-shadow: 5px 5px 5px var(--quaternary-color);
 }
 
 .Name-card {
@@ -215,7 +219,8 @@ body {
 
 
 .offer-Card:hover {
-    border: 0.1vw solid var(--tertiary-color);
+    border: 0.1vw solid var(--quinary-color);
+    box-shadow: 5px 5px 5px var(--quaternary-color);
 }
 
 
@@ -271,19 +276,25 @@ body {
         align-items: center;
     }
     .Card {
-        width: 20vw;
+        width: 70vw;
         height: 30vw;
-        margin: 0.5vw;
-        padding: 5vh 1vw;
+        margin: 0 4vw 2vw 0;
+        padding: 5vh 3vw;
         font-size: 1vw;
     }
+    .Card button{
+        float: right;
+    }
     .offer-Card {
-        width: 20vw;
+        width: 70vw;
         height: 30vw;
-        margin: 0.5vw;
+        margin: 0 4vw 2vw 0;
         border-radius: 1vw;
         background-color: var(--secondary-color);
-        padding: 5vh 1vw;
+        padding: 5vh 3vw;
         font-size: 1vw;
+    }
+    .offer-Card button{
+        float: right;
     }
 }
