@@ -1,0 +1,289 @@
+:root {
+    --primary-color: #010148;
+    --secondary-color: #5f30e2;
+    --tertiary-color: #90909d;
+    --quaternary-color: #d3d3d3;
+    --quinary-color: #ffffff;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pricing-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5vw;
+    margin-left: 4vw;
+
+}
+
+.pricing-range {
+    margin-top: 3vw;
+}
+
+.pricing-head p:first-child {
+    font-size: 3vw;
+    font-weight: 800;
+    display: inline;
+    color: var(--primary-color);
+
+}
+
+.pricing-head p:last-child {
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: var(--tertiary-color);
+}
+
+.pricing-head span {
+    margin-top: 1.7vw;
+    float: right;
+}
+
+.btn-left {
+    font-size: 1.2vw;
+    padding: 1vw 2.5vw;
+    border: 0;
+    outline: 0;
+    color: var(--quinary-color);
+    background-color: var(--secondary-color);
+}
+
+.btn-right {
+    font-size: 1.2vw;
+    padding: 1vw 3.2vw;
+    border: 0;
+    outline: 0;
+
+}
+
+.rounded-btn {
+    border-radius: 1.8vw;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 70vw;
+    height: 0.75vw;
+    border-radius: 5px;
+    background: var(--quaternary-color);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2vw;
+    height: 2vw;
+    border: 0.3vw solid var(--quinary-color);
+    border-radius: 50%;
+    background: var(--secondary-color);
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    cursor: pointer;
+}
+
+.Card {
+    width: 18vw;
+    height: 30vw;
+    margin: 0.5vw;
+    border: 0.1vw solid var(--quinary-color);
+    border-radius: 1vw;
+    padding: 5vh 1vw;
+    font-size: 1vw;
+}
+
+.Card:hover {
+    border: 0.1vw solid var(--tertiary-color);
+}
+
+.Name-card {
+    font-size: 2vw;
+}
+
+
+.Info-card {
+    font-size: 1.2vw;
+    color: var(--tertiary-color);
+}
+
+.Price {
+    font-size: 3vw;
+}
+
+.Period {
+    font-size: 1.3vw;
+}
+
+.Name-card-offer {
+    font-size: 2vw;
+    color: var(--quaternary-color);
+}
+
+
+.Info-card-offer {
+    font-size: 1.2vw;
+    color: var(--tertiary-color);
+}
+
+.Price-offer {
+    font-size: 3vw;
+    color: var(--quinary-color)
+}
+
+.Period-offer {
+    font-size: 1.3vw;
+    color: var(--quinary-color)
+}
+
+.pricing-cards ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.Card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Card ul li {
+    font-size: 1.1vw;
+    margin-top: 0.85vw;
+}
+
+.Card button {
+    background-color: var(--quinary-color);
+    border: 0.01vw solid var(--secondary-color);
+    border-radius: 0.5vw;
+    color: var(--secondary-color);
+    padding: 1vw 6vw;
+    text-align: center;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.Card button:hover {
+    color: var(--quinary-color);
+    background-color: var(--secondary-color);
+}
+
+
+.offer-Card {
+    width: 18vw;
+    height: 30vw;
+    margin: 0.5vw;
+    border: 0.1vw solid var(--quinary-color);
+    border-radius: 1vw;
+    background-color: var(--secondary-color);
+    padding: 5vh 1vw;
+    font-size: 1vw;
+}
+
+
+.offer-Card:hover {
+    border: 0.1vw solid var(--tertiary-color);
+}
+
+
+.offer-Card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.offer-Card ul li {
+    font-size: 1.1vw;
+    margin-top: 0.85vw;
+    color: var(--quinary-color);
+
+}
+
+.offer-Card button {
+    background-color: var(--quinary-color);
+    border: 0.01vw solid var(--secondary-color);
+    border-radius: 0.5vw;
+    color: var(--secondary-color);
+    padding: 1vw 6vw;
+    text-align: center;
+    font-size: 1vw;
+    cursor: pointer;
+
+}
+
+.offer-Card button:hover {
+    background-color: var(--primary-color);
+}
+
+.iconify {
+    color: var(--tertiary-color);
+}
+
+.Card ul li span:last-child {
+    margin-left: 0.75vw;
+}
+
+.offer-Card ul li span:last-child {
+    margin-left: 0.75vw;
+}
+@media only screen and (max-width: 900px) {
+    .pricing-header {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .pricing-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .Card {
+        width: 20vw;
+        height: 30vw;
+        margin: 0.5vw;
+        padding: 5vh 1vw;
+        font-size: 1vw;
+    }
+    .offer-Card {
+        width: 20vw;
+        height: 30vw;
+        margin: 0.5vw;
+        border-radius: 1vw;
+        background-color: var(--secondary-color);
+        padding: 5vh 1vw;
+        font-size: 1vw;
+    }
+}
