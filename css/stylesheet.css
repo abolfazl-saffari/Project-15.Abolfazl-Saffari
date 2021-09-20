@@ -145,10 +145,13 @@ body {
 
 .Price {
     font-size: 3vw;
+
 }
 
 .Period {
     font-size: 1.3vw;
+    vertical-align: super;
+
 }
 
 .Name-card-offer {
@@ -169,6 +172,7 @@ body {
 
 .Period-offer {
     font-size: 1.3vw;
+    vertical-align: super;
     color: var(--quinary-color)
 }
 
