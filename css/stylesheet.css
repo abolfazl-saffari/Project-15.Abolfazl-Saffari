@@ -126,11 +126,14 @@ body {
     border-radius: 1vw;
     padding: 5vh 1vw;
     font-size: 1vw;
+    transition: transform 0.65s;
+
 }
 
 .Card:hover {
     border: 0.1vw solid var(--tertiary-color);
     box-shadow: 5px 5px 5px var(--quaternary-color);
+    transform: translate(0,-2vw);
 }
 
 .Name-card {
@@ -219,12 +222,14 @@ body {
     background-color: var(--secondary-color);
     padding: 5vh 1vw;
     font-size: 1vw;
+    transition: transform 0.65s;
 }
 
 
 .offer-Card:hover {
     border: 0.1vw solid var(--quinary-color);
     box-shadow: 5px 5px 5px var(--quaternary-color);
+    transform: translate(0,-2vw);
 }
 
 
@@ -286,6 +291,9 @@ body {
         padding: 5vh 3vw;
         font-size: 1vw;
     }
+    .Card:hover{
+        transform: none;
+    }
     .Card button{
         float: right;
     }
@@ -297,6 +305,9 @@ body {
         background-color: var(--secondary-color);
         padding: 5vh 3vw;
         font-size: 1vw;
+    }
+    .offer-Card:hover{
+        transform: none;
     }
     .offer-Card button{
         float: right;
