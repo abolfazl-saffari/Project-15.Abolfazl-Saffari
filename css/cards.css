@@ -1,0 +1,63 @@
+.pricing-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5vw;
+    margin-left: 4vw;
+
+}
+
+.Card {
+    width: 18vw;
+    height: 30vw;
+    margin: 0.5vw;
+    border: 0.1vw solid var(--quinary-color);
+    border-radius: 1vw;
+    padding: 5vh 1vw;
+    font-size: 1vw;
+    transition: transform 0.65s;
+
+}
+
+.Card:hover {
+    border: 0.1vw solid var(--tertiary-color);
+    box-shadow: 5px 5px 5px var(--quaternary-color);
+    transform: translate(0, -2vw);
+}
+
+.Name-card {
+    font-size: 2vw;
+}
+
+.Info-card {
+    font-size: 1.2vw;
+    color: var(--tertiary-color);
+}
+
+.Price {
+    font-size: 3vw;
+
+}
+
+.Period {
+    font-size: 1.3vw;
+    vertical-align: super;
+
+}
+
+.pricing-cards ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.Card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Card ul li {
+    font-size: 1.1vw;
+    margin-top: 0.85vw;
+}

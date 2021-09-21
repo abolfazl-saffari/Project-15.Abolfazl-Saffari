@@ -1,0 +1,48 @@
+@media only screen and (max-width: 900px) {
+    .pricing-header {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .pricing-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .Card {
+        width: 70vw;
+        height: 30vw;
+        margin: 0 4vw 2vw 0;
+        padding: 5vh 3vw;
+        font-size: 1vw;
+    }
+
+    .Card:hover {
+        transform: none;
+    }
+
+    .Card button {
+        float: right;
+    }
+
+    .offer-Card {
+        width: 70vw;
+        height: 30vw;
+        margin: 0 4vw 2vw 0;
+        border-radius: 1vw;
+        background-color: var(--secondary-color);
+        padding: 5vh 3vw;
+        font-size: 1vw;
+    }
+
+    .offer-Card:hover {
+        transform: none;
+    }
+
+    .offer-Card button {
+        float: right;
+    }
+}

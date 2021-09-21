@@ -1,0 +1,61 @@
+.Name-card-offer {
+    font-size: 2vw;
+    color: var(--quaternary-color);
+}
+
+
+.Info-card-offer {
+    font-size: 1.2vw;
+    color: var(--tertiary-color);
+}
+
+.Price-offer {
+    font-size: 3vw;
+    color: var(--quinary-color)
+}
+
+.Period-offer {
+    font-size: 1.3vw;
+    vertical-align: super;
+    color: var(--quinary-color)
+}
+
+.offer-Card {
+    width: 18vw;
+    height: 30vw;
+    margin: 0.5vw;
+    border: 0.1vw solid var(--quinary-color);
+    border-radius: 1vw;
+    background-color: var(--secondary-color);
+    padding: 5vh 1vw;
+    font-size: 1vw;
+    transition: transform 0.65s;
+}
+
+
+.offer-Card:hover {
+    border: 0.1vw solid var(--quinary-color);
+    box-shadow: 5px 5px 5px var(--quaternary-color);
+    transform: translate(0, -2vw);
+}
+
+
+.offer-Card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.offer-Card ul li {
+    font-size: 1.1vw;
+    margin-top: 0.85vw;
+    color: var(--quinary-color);
+
+}
+
+.Card ul li span:last-child {
+    margin-left: 0.75vw;
+}
+
+.offer-Card ul li span:last-child {
+    margin-left: 0.75vw;
+}

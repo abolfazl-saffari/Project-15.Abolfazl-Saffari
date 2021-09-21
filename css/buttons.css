@@ -1,0 +1,56 @@
+.pricing-head button {
+    cursor: pointer;
+}
+
+.btn-left {
+    font-size: 1.2vw;
+    padding: 1vw 2.5vw;
+    border: 0;
+    outline: 0;
+    color: var(--quinary-color);
+    background-color: var(--secondary-color);
+}
+
+.btn-right {
+    font-size: 1.2vw;
+    padding: 1vw 3.2vw;
+    border: 0;
+    outline: 0;
+
+}
+
+.rounded-btn {
+    border-radius: 1.8vw;
+}
+
+.Card button {
+    background-color: var(--quinary-color);
+    border: 0.01vw solid var(--secondary-color);
+    border-radius: 0.5vw;
+    color: var(--secondary-color);
+    padding: 1vw 6vw;
+    text-align: center;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.Card button:hover {
+    color: var(--quinary-color);
+    background-color: var(--secondary-color);
+}
+
+.offer-Card button {
+    background-color: var(--quinary-color);
+    border: 0.01vw solid var(--secondary-color);
+    border-radius: 0.5vw;
+    color: var(--secondary-color);
+    padding: 1vw 6vw;
+    text-align: center;
+    font-size: 1vw;
+    cursor: pointer;
+
+}
+
+.offer-Card button:hover {
+    background-color: var(--primary-color);
+}
